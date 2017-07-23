@@ -5,6 +5,7 @@ import math
 import operator
 import os
 
+
 def loadDataSet(fileName, split, trainingSet=[], testSet=[]):
     with open(fileName, "rb") as csvFile:
         lines = csv.reader(csvFile)
