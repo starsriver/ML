@@ -3,7 +3,6 @@ import csv
 import random
 import math
 import operator
-import os
 
 
 def loadDataSet(fileName, split, trainingSet=[], testSet=[]):
@@ -85,5 +84,4 @@ def main():
 
 
 if __name__ == '__main__':
-    print(os.getcwd())
     main()
