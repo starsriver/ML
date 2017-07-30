@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from numpy import genfromtxt
-# import numpy as np
 from sklearn import linear_model
 
 dataPath = r"./Delivery.csv"
